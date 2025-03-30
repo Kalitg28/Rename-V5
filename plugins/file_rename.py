@@ -67,7 +67,11 @@ async def rename_start(client, message):
         limit = user_data.get('uploadlimit', 0)
         used = user_data.get('used_limit', 0)
         remain = int(limit) - int(used)
-        used_percentage = int(used) / int(limit) * 100
+        if int(limit) > 0:
+		used_percentage = int(used) / int(limit) * 100
+	else:
+		used_percentage = 0  # Default to 0% usage if limit is 0
+
         if remain < int(rkn_file.file_size):
             return await message.reply_text(f"{used_percentage:.2f}% Of Daily Upload Limit {humanbytes(limit)}.\n\n Media Size: {filesize}\n Your Used Daily Limit {humanbytes(used)}\n\nYou have only **{humanbytes(remain)}** Data.\nPlease, Buy Premium Plan s.", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🪪 Uᴘɢʀᴀᴅᴇ", callback_data="plans")]]))
          

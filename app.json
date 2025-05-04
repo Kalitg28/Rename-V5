@@ -40,8 +40,13 @@
             "required": false
         },
         "START_PIC": {
-            "description": "Your Bot start cmd Pic from @RKN_Telegraphbot",
+            "description": "Your Bot start cmd Pic",
             "value": "https://telegra.ph/file/b746aadfe59959eb76f59.jpg",
+            "required": false
+        },
+        "STRING_SESSION": {
+            "description": "Your String Session",
+            "value": "",
             "required": false
         }
     },

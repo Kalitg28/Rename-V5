@@ -48,8 +48,12 @@ import os, time, asyncio
 UPLOAD_TEXT = """Uploading Started...."""
 DOWNLOAD_TEXT = """Download Started..."""
 
-app = Client("4gb_FileRenameBot", api_id=Config.API_ID, api_hash=Config.API_HASH, session_string=Config.STRING_SESSION)
-
+app = Client(
+    name="4gb_FileRenameBot",
+    api_id=Config.API_ID,
+    api_hash=Config.API_HASH,
+    session_string=os.environ.get("STRING_SESSION") or Config.STRING_SESSION
+)
 
 @Client.on_message(filters.private & (filters.audio | filters.document | filters.video))
 async def rename_start(client, message):

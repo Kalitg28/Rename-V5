@@ -50,8 +50,8 @@ DOWNLOAD_TEXT = """Download Started..."""
 
 app = Client(
     name="4gb_FileRenameBot",
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
+    api_id=os.environ.get("API_ID") or Config.API_ID,
+    api_hash=os.environ.get("API_HASH") or Config.API_HASH,
     session_string=os.environ.get("STRING_SESSION") or Config.STRING_SESSION
 )
 

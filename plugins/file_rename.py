@@ -54,8 +54,6 @@ app = Client(
     api_hash=os.environ.get("API_HASH") or Config.API_HASH,
     session_string=os.environ.get("STRING_SESSION") or Config.STRING_SESSION
 )
-if not session_string: # type: ignore
-        raise ValueError("STRING_SESSION is not set.")
 
 @Client.on_message(filters.private & (filters.audio | filters.document | filters.video))
 async def rename_start(client, message):

@@ -65,7 +65,7 @@ This Bot Was Created By : <a href=https://t.me/Indian_MV_Admin_Bot>Admin💞</a>
 ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Indian_MV_Group>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
 """
 
-    UPGRADE_PREMIUM= """
+    UPGRADE_PREMIUM = """
 •⪼ ★𝘗𝘭𝘢𝘯𝘴    -  ⏳𝘋𝘢𝘵𝘦 - 💸𝘗𝘳𝘪𝘤𝘦 
 •⪼ 🥉𝘉𝘳𝘰𝘯𝘻𝘦  -   3𝘥𝘢𝘺𝘴 -   30
 •⪼ 🥈𝘚𝘪𝘭𝘷𝘦𝘳   -   7𝘥𝘢𝘺𝘴 -   70
@@ -77,7 +77,7 @@ This Bot Was Created By : <a href=https://t.me/Indian_MV_Admin_Bot>Admin💞</a>
 - 𝘋𝘪𝘴𝘤𝘰𝘶𝘯𝘵 𝘈𝘭𝘭 𝘗𝘭𝘢𝘯 10%
     """
     
-    UPGRADE_PLAN= """
+    UPGRADE_PLAN = """
 𝘗𝘭𝘢𝘯: 𝘗𝘳𝘰
 𝘋𝘢𝘵𝘦: 1 𝘮𝘰𝘯𝘵𝘩 
 𝘗𝘳𝘪𝘤𝘦: 150

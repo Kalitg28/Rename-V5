@@ -49,8 +49,8 @@ This Bot Was Created By : <a href=https://t.me/Indian_MV_Admin_Bot>Admin💞</a>
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 My Name    : {}
-├🖥️ Developers : {}
-├👨‍💻 Programmer : {}
+├🖥️ Developers : <a href=https://t.me/Indian_MV_Admin_Bot>༄㉿ᴬℓ𝓲࿐</a>
+├👨‍💻 Programmer : <a href=https://t.me/Indian_MV_Admin_Bot>༄㉿ᴬℓ𝓲࿐</a>
 ├📕 Library    : {}
 ├✏️ Language   : {}
 ├💾 Data Base  : {}

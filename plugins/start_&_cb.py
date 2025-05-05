@@ -177,7 +177,7 @@ async def cb_handler(client, query: CallbackQuery):
     elif data == "about":
         about_button = [[
          #⚠️ don't change source code & source link ⚠️ #
-        InlineKeyboardButton("𝚂Source", callback_data = "source_code"), #Whoever is deploying this repo is given a warning ⚠️ not to remove this repo link #first & last warning ⚠️
+        InlineKeyboardButton("Source", callback_data = "source_code"), #Whoever is deploying this repo is given a warning ⚠️ not to remove this repo link #first & last warning ⚠️
         InlineKeyboardButton("Bot Status", callback_data = "bot_status")
         ],[
         InlineKeyboardButton("Live Status", callback_data = "live_status")

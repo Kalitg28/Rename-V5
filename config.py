@@ -45,7 +45,7 @@ Using This Bot You Can Rename & Change Thumbnail Of Your File 📁
 You Can Also Convert Video To File & File To Video 🎞️
 This Bot Also Support Custom Caption & Metadata 📑
 
-This Bot Was Created By : <a href=https://t.me/GwitcherG>Chamindu-Gayanuka💞</b>"""
+This Bot Was Created By : <a href=https://t.me/GwitcherG>Chamindu-Gayanuka💞</a></b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 My Name    : {}
@@ -115,8 +115,8 @@ Example:- `/set_caption 📕 FILE NAME: {filename}
 ⌚️ BOT UPTIME: `{}`
 👭 TOTAL USERS: `{}`
 💸 TOTAL PREMIUM USERS: `{}`
-֍ UPLOAD: `{}`
-⊙ DOWNLOAD: `{}`
+⏳ UPLOAD: `{}`
+🚀 DOWNLOAD: `{}`
 """
     LIVE_STATUS = """
 ⚡ LIVE SERVER STATUS ⚡
@@ -167,8 +167,7 @@ Example:- `/set_prefix @Unlimited_Movie_Zone`
     
 » 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/Chamindu-Gayanuka/Digital-Rename-Bot>Digital-Rename-Bot</a>
 
-• ❣️ <a href=https://github.com/Chamindu-Gayanuka>Chamindu-Gayanuka</a>
-• ❣️ <a href=https://github.com/DigitalBotz>DigitalBotz</a> """
+• ❣️ <a href=https://github.com/Chamindu-Gayanuka>Chamindu-Gayanuka</a>"""
 
     SEND_METADATA = """
 ❪ SET CUSTOM METADATA ❫
@@ -186,8 +185,8 @@ Example:- `/set_prefix @Unlimited_Movie_Zone`
     
     RKN_PROGRESS = """<b>\n
 ╭━━━━❰RENAME PROCESSING...❱━➣
-┣⪼ 🗃️ ꜱɪᴢᴇ: {1} | {2}
-┣⪼ ⏳️ ᴅᴏɴᴇ : {0}%
-┣⪼ 🚀 ꜱᴩᴇᴇᴅ: {3}/s
-┣⪼ ⏰️ ᴇᴛᴀ: {4}
+┣⪼ 🗃️ Size  : {1} | {2}
+┣⪼ ⏳️ Done  : {0}%
+┣⪼ 🚀 Speed : {3}/s
+┣⪼ ⏰️ ETA   : {4}
 ╰━━━━━━━━━━━━━━━➣ </b>"""

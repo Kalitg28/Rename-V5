@@ -12,12 +12,12 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")
-    DB_URL = os.environ.get("DB_URL","")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://rename4gbmv:rename4gbmv@cluster0.byymegh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
-    START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/eb80582fa42f9bd412085.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1087141176').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001778606534"))
+    START_PIC = os.environ.get("START_PIC", "https://envs.sh/1y-.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6004928770').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001627302224"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 10737418240  # 10 GB = 10 * 1024 * 1024 * 1024
@@ -30,7 +30,7 @@ class Config(object):
     try:
         FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Unlimited_Movie_Zone")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "Indian_MV")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
@@ -45,7 +45,7 @@ Using This Bot You Can Rename & Change Thumbnail Of Your File 📁
 You Can Also Convert Video To File & File To Video 🎞️
 This Bot Also Support Custom Caption & Metadata 📑
 
-This Bot Was Created By : <a href=https://t.me/GwitcherG>Chamindu-Gayanuka💞</a></b>"""
+This Bot Was Created By : <a href=https://t.me/Indian_MV_Admin_Bot>Admin💞</a></b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 My Name    : {}
@@ -54,7 +54,7 @@ This Bot Was Created By : <a href=https://t.me/GwitcherG>Chamindu-Gayanuka💞</
 ├📕 Library    : {}
 ├✏️ Language   : {}
 ├💾 Data Base  : {}
-├📊 Version    : <a href=https://github.com/Chamindu-Gayanuka/Digital-Rename-Bot>{}</a></b>     
+├📊 Version    : <a href=https://t.me/Indian_MV>{}</a></b>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -62,7 +62,7 @@ This Bot Was Created By : <a href=https://t.me/GwitcherG>Chamindu-Gayanuka💞</
 
 ✏️ <b><u>How to Rename a File</u></b>
 <b>•></b> Send Any File And Type New File Name \nAnd Select The Format [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Unlimited_Movie_Zone>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Indian_MV_Group>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
 """
 
     UPGRADE_PREMIUM= """
@@ -138,13 +138,13 @@ V3.0.0 [STABLE]
 
 ☞ For Example:-
 
-`--change-title @Unlimited_Movie_Zone
---change-video-title @Unlimited_Movie_Zone
---change-audio-title @Unlimited_Movie_Zone
---change-subtitle-title @Unlimited_Movie_Zone
---change-author @Unlimited_Movie_Zone`
+`--change-title @Indian_MV
+--change-video-title @Indian_MV
+--change-audio-title @@Indian_MV
+--change-subtitle-title @Indian_MV
+--change-author @Indian_MV`
 
-📥 For Help Cont. @Unlimited_Movie_Zone
+📥 For Help Cont. @Indian_MV
 """
     
     CUSTOM_FILE_NAME = """
@@ -159,28 +159,28 @@ you can pre-add a prefix and suffix along with your new filename
 ➢ /see_suffix - To see your suffix.
 ➢ /del_suffix - To delete your suffix.
 
-Example:- `/set_suffix @Unlimited_Movie_Zone`
-Example:- `/set_prefix @Unlimited_Movie_Zone`
+Example:- `/set_suffix @Indian_MV`
+Example:- `/set_prefix @Indian_MV`
 """
 
-    DEV_TXT = """<b><u>Special Thanks & Developers</b></u>
-    
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/Chamindu-Gayanuka/Digital-Rename-Bot>Digital-Rename-Bot</a>
-
-• ❣️ <a href=https://github.com/Chamindu-Gayanuka>Chamindu-Gayanuka</a>"""
+    DEV_TXT = """<b><u>┏━•❃𓊈𒆜Oᴡɴᴇʀ Dᴇᴛᴀɪʟꜱ𒆜𓊉❃•━┓   
+◈ ᴛɢ ɴᴀᴍᴇ : ༄㉿ᴬℓ𝓲࿐
+◈ ᴜꜱᴇʀɴᴀᴍᴇ : @Indian_MV_Admin_Bot
+◈ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href=https://t.me/Indian_MV_Admin_Bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+‿︵‿︵‿︵‿୨❤୧‿︵‿︵‿︵‿</b></u>"""
 
     SEND_METADATA = """
 ❪ SET CUSTOM METADATA ❫
 
 ☞ For Example:-
 
-`--change-title @Unlimited_Movie_Zone
---change-video-title @Unlimited_Movie_Zone
---change-audio-title @Unlimited_Movie_Zone
---change-subtitle-title @Unlimited_Movie_Zone
---change-author @Unlimited_Movie_Zone`
+`--change-title @Indian_MV
+--change-video-title @Indian_MV
+--change-audio-title @Indian_MV
+--change-subtitle-title @Indian_MV
+--change-author @Indian_MV`
 
-📥 For Help Cont. @Unlimited_Movie_Zone
+📥 For Help Cont. @Indian_MV
 """
     
     RKN_PROGRESS = """<b>\n

@@ -45,7 +45,7 @@ Using This Bot You Can Rename & Change Thumbnail Of Your File 📁
 You Can Also Convert Video To File & File To Video 🎞️
 This Bot Also Support Custom Caption & Metadata 📑
 
-This Bot Was Created By : @GwitcherG 💞</b>"""
+This Bot Was Created By : <a href=https://t.me/GwitcherG>Chamindu-Gayanuka💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 My Name    : {}
@@ -167,7 +167,7 @@ Example:- `/set_prefix @Unlimited_Movie_Zone`
     
 » 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/Chamindu-Gayanuka/Digital-Rename-Bot>Digital-Rename-Bot</a>
 
-• ❣️ <a href=https://github.com/Chamindu-Gayanuka>RknDeveloper</a>
+• ❣️ <a href=https://github.com/Chamindu-Gayanuka>Chamindu-Gayanuka</a>
 • ❣️ <a href=https://github.com/DigitalBotz>DigitalBotz</a> """
 
     SEND_METADATA = """

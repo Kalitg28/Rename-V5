@@ -20,7 +20,7 @@ class Config(object):
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001627302224"))
 
     # free upload limit 
-    FREE_UPLOAD_LIMIT = 10737418240  # 10 GB = 10 * 1024 * 1024 * 1024
+    FREE_UPLOAD_LIMIT = 6442450944  # 10 GB = 10 * 1024 * 1024 * 1024
 
     # premium mode feature ✅
     UPLOAD_LIMIT_MODE = True 

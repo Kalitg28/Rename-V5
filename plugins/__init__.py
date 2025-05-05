@@ -26,14 +26,14 @@ License Link : https://github.com/Chamindu-Gayanuka/Digital-Rename-Bot/blob/main
 """
 
 __name__ = "Digital-Rename-Bot"
-__version__ = "3.0.8"
+__version__ = "V4.0"
 __license__ = " Apache License, Version 2.0"
 __copyright__ = "Copyright (C) 2022-present Digital Botz <https://github.com/Chamindu-Gayanuka>"
 __programer__ = "<a href=https://github.com/Chamindu-Gayanuka/Digital-Rename-Bot>Chamindu-Gayanuka</a>"
 __library__ = "<a href=https://github.com/pyrogram>Pyrogram</a>"
 __language__ = "<a href=https://www.python.org/>Python 3</a>"
 __database__ = "<a href=https://cloud.mongodb.com/>MongoDB</a>"
-__developer__ = "<a href=https://t.me/https://t.me/GwitcherG>Chamindu-Gayanuka</a>"
+__developer__ = "<a href=https://t.me/GwitcherG>Chamindu-Gayanuka</a>"
 __maindeveloper__ = "<a href=https://t.me/Digital_Botz>RknDeveloper</a>"
 
 # main copyright herders (©️)
